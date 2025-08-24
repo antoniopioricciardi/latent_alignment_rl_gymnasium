@@ -1,4 +1,4 @@
-name: cmid
+name: cmid_gymnasium
 channels:
   - pytorch
   - nvidia
