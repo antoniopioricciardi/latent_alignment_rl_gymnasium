@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0 python3 train.py \
+	--algorithm svea \
+	--seed 0 \
+	--domain_name carracing \
+	--task_name drive \
+	--exp_name carracing_env1_svea \
+	--num_train_steps 250000 \
+	--num_test_steps 62500 \
+	--action_repeat 4 \
+	--correlated_with_colour False \
+	--env_variant env1
